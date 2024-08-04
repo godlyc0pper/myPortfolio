@@ -1,0 +1,145 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #eee;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1.5rem 0; /* Increased padding for larger header */
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem; /* Increased font size for header */
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px; /* Increased margin for nav items */
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem; /* Increased font size for nav links */
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 2.5rem; /* Increased margin-top */
+  padding: 2.5rem; /* Increased padding */
+  border-radius: 8px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 2.5rem; /* Increased margin-top */
+  margin-bottom: 1.5rem; /* Increased margin-bottom */
+  font-size: 2.5rem; /* Increased font size */
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 2rem; /* Increased margin-bottom */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  background: rgba(255, 255, 255, 0.2); /* Reduced visibility */
+}
+
+.card-title {
+  font-size: 2rem; /* Increased font size */
+  color: #fff; /* Light color for titles */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text {
+  font-size: 1.5rem; /* Increased font size */
+  color: black; /* Black color for descriptions */
+}
+
+.card-logo {
+  width: 200px; /* Increased width */
+  height: auto;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1.5rem 0; /* Increased padding */
+  margin-top: 2.5rem; /* Increased margin-top */
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.5rem; /* Increased font size */
+}
+
+a.link-primary {
+  color: #007bff;
+}
+
+a.link-primary:hover {
+  text-decoration: underline;
+}
+
+/* Custom highlight styles */
+.highlight-red {
+  color: red;
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: bold;
+}
+
+.highlight-yellow {
+  color: yellow;
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: bold;
+}
+
+.highlight-blue {
+  color: blue;
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: bold;
+}
+
+/* About Me text */
+.about-text {
+  font-family: 'Georgia', serif; /* Changed font for About Me section */
+  color: #fff; /* Changed color for better contrast */
+  text-align: center;
+  font-size: 1.5rem; /* Increased font size */
+}
+
+/* Contact Info */
+.contact-info {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem; /* Increased font size */
+}
